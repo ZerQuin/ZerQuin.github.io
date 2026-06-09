@@ -81,6 +81,19 @@
             margin-bottom: 15px;
         }
 
+        .game-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .game-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            border: 1px solid #444;
+        }
+
         .button {
             display: inline-block;
             text-decoration: none;
@@ -140,7 +153,10 @@
             <div class="games">
 
                 <div class="game-card">
-                    <h3>CQ Shootout</h3>
+                    <div class="game-header">
+                        <img src="images/arcade-machine.png" alt="CQ Shootout Icon" class="game-icon">
+                        <h3>CQ Shootout</h3>
+                    </div>
                     <p>Dive into fast-paced 2D tactical battles with CQ Shootout! Choose your loadout and dominate in two exciting game modes.</p>
                     <a class="button"
                        href="https://play.google.com/store/apps/details?id=com.codewithq.cqshootout"
@@ -148,9 +164,12 @@
                         View on Google Play
                     </a>
                 </div>
-
+                
                 <div class="game-card">
-                    <h3>Doodle War</h3>
+                    <div class="game-header">
+                        <img src="images/arcade-machine.png.png" alt="Doodle War Icon" class="game-icon">
+                        <h3>Doodle War</h3>
+                    </div>
                     <p>Unleash Your Inner Doodler! Step into the world of Doodle War, where creativity meets chaos in this thrilling 2D platformer.</p>
                     <a class="button"
                        href="https://play.google.com/store/apps/details?id=com.codewithq.doodlewar"
@@ -158,6 +177,7 @@
                         View on Google Play
                     </a>
                 </div>
+
 
             </div>
         </section>
